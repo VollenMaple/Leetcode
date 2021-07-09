@@ -1,2 +1,7 @@
 
 https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
+
+Dynamic Programming Patterns
+https://leetcode.com/aatalyk/
+
+https://www.quora.com/Are-there-any-good-resources-or-tutorials-for-dynamic-programming-DP-besides-the-TopCoder-tutorial
