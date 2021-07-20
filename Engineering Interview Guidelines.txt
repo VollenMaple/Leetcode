@@ -1,0 +1,91 @@
+Engineering Interview Guidelines for Individual Contributors
+
+Typical Interview Recommendation 
+
+Recruiter Screen 
+
+Technical Phone Screen
+
+The objective of this round to figure out the technical fit to proceed further with the (virtual) onsite interview. 
+
+Follow the guidelines for Coding Interview
+
+(Virtual) Onsite Interview:
+
+We are going to have 4 (virtual) onsite rounds which include four 1 hour technical rounds and one 30 mins round with Hiring Manager’s Manager. Below is a little more detail: 
+
+2 coding rounds.
+
+Follow the guidelines for Coding Interview
+
+1 system design round
+
+Follow the guidelines for System Design Interview
+
+1 project evaluation round mostly would be done by hiring managers.
+
+Follow the guidelines for Project Evaluation Interview
+
+1 round with the Hiring Manager Manager(Senior Manager/Director/VP)
+
+Could be a combination of above. We will have more guidelines for it. 
+
+We do not have a separate culture fit or behavioral round. Instead, we would like each interviewer to spend the first 10 mins on evaluating the candidate on behavioral topics that matter most to us an engineering organization.  We need to ensure two things here:     
+
+Each interviewer should ask at least 1 question from each topic. There is no right answer to these kinds of questions. Please make sure that you know what you expect out of that question. Always look for real-life examples from the candidate. Drill down as deep as you can by asking specific questions around the situation in which they were in and what was their responsibility. We want to know what they did as an individual and not as a team unless it’s a question that actually focuses on teamwork. 
+
+ Please make sure that interviewers do not repeat topics. We do not want to repeat our topics or questions since it won’t help us evaluate the candidate and also it would feel to the candidate that we as a team are not in sync. Please work with each interviewer on the panel to make sure that your questions are not repeating.
+
+Candidate experience is also a key here. Let’s make sure that we provide the best candidate experience:
+
+Interviews are not one-way communication. Let’s make them more conversational and help them succeed in the interview. 
+
+Provide hints if you feel that they are stuck and guide them to the solution. 
+
+Don’t ask trick questions.
+
+Don’t be aggressive and don’t interrupt while they are working on a solution. 
+
+The goal of the interview is to judge them on what they know.
+
+Interview Type: 
+
+Coding Interview:
+
+The objective of these two rounds is to figure out whether the candidate can write and discuss the code, and the problems that would arise.
+
+We will use coderpad.io . Reach out to  /  for credentials.
+
+We are not looking for 100% correct syntax but we are also not looking for pseudocode. Since we are doing whiteboard(online if remote), we should be able to compile code after minor modifications like for example an incorrect API name that they might not have remembered or a missing semicolon. 
+
+The difficulty level of the onsite interview questions should be between medium and hard. For examples of what is the difference between medium and hard, please look at https://leetcode.com/problemset/all/ and filter based on difficultly level. Please do not pick questions as it is from here since candidates probably would have gone through a lot of them. Take inspiration from these questions and try and modify them.
+
+Be prepared with at 3 questions in increasing order of their difficulty since there might be a candidate who would be able to solve the questions very quickly either because they are really smart or they have seen similar questions before. You should never be in a state where you are looking for questions during the interview or for that matter looking for the solution to that question.
+
+If possible, try and select questions that have multiple approaches and see that if a candidate can get to the most optimized approach.
+
+Coding the solution is not sufficient. Brute force is not ok, some CS fundamentals need to be applied. Check whether it is optimized and if it covers all the edge cases. Can they write the test case for the code that they just wrote?
+
+System Design Interview
+
+The objective of this round is to gauge the breadth and depth of a candidate's knowledge, and their ability to communicate their thoughts. 
+
+There is no right or wrong answer to the questions asked in this round as compared to the coding rounds. 
+
+Choose a question that is relevant or similar to our system/space so that we can judge more accurately.
+
+Keep the question vague intentionally so that we can judge how the candidate deals with incomplete or ambiguous information. 
+
+Vague questions will also help us in judging how they deal with requirements gathering.
+
+Look for a high-level end to end design first and then dive deeper into the design of one or two specific components. 
+
+Project Evaluation Interview
+
+The objective of this round is to mostly evaluate the projects that the candidate has worked on to identify their involvement in the project. 
+
+The interviewer should be aware of the projects that the candidate has worked on and should be prepared to ask the right questions about the project. 
+
+This round should help us in evaluating the candidate's involvement in the project, and their knowledge about it. 
+
+It would be difficult to find a candidate who has done a solo project but even if they were part of the team do they know what the entire team was working on vs knowing only their part.
