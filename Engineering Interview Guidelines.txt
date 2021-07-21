@@ -89,3 +89,41 @@ The interviewer should be aware of the projects that the candidate has worked on
 This round should help us in evaluating the candidate's involvement in the project, and their knowledge about it. 
 
 It would be difficult to find a candidate who has done a solo project but even if they were part of the team do they know what the entire team was working on vs knowing only their part.
+
+
+
+
+
+Ron Teeter  1:27 AM
+Heh, team Kappa just had a deep dive in shorturl development today. :)
+1:28
+Lots of interesting discussion about how to identify unused random shortcodes (similar to the avilable phone number problem)?
+1:29
+Remember that it’s time, space and cost!
+1:30
+We got a spend alarm (yeah, that’s a thing!) and had to dig into something that changed to run inefficiently.
+
+Sudeep Patil  2:58 AM
+@Vince Hodges, in system design round I use the whiteboard that comes with zoom. and some candidates prefer to open  text editor and share screen when discussing. (edited) 
+3:01
+This is one problem that I generally ask in addition to talking about points highlighted in the resume
+Problem : Discussion on an Activity feed/ Facebook feed kind solution.
+Points I try to cover:
+- High level system design: we use an online whiteboard to draw and discuss the high level design, components and interactions.
+- Database design
+- Working of few specific components/services
+- Performance and Scalability
+- FE - BE interaction on the feed/activity page. Not always get to this point
+I go in this order but most of the time not able to cover more than 2 points in the list.
+If candidate prefers to talk/cover more details on one or more of the above, I let them do and ask questions they are comfortable with as well.
+Sometimes I suggest solution and ask if they think its ok? its more of a discussion and it depends on the experience of the candidate and interest areas. (edited) 
+
+Vince Hodges  10:01 AM
+Awesome thank you so much
+
+Vince Hodges  11:00 AM
+I am thinking about asking to design an affiliate marketing/referral system (since it’s fresh in my mind how I did it :wink: )
+New
+
+Joshua Jackson  11:31 AM
+Would depend on their experience with any kind of marketing background. Might take more time explaining what the goal is vs doing design. Would be the only thing I would caution there potentially.
