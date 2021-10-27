@@ -18,7 +18,13 @@ Example 4:
 
 Input: s = "ac"
 Output: "a"
+
+
+p(i,i) = true
+p(i, i+1) = s[i] == s[i+1]
+P(i,j)=(P(i+1,j−1) and S[i] == s[j]
 =end
+
 
 
 # @param {String} s
@@ -29,10 +35,14 @@ def longest_palindrome(s)
     max = s[0].to_s
     
     (0..n-1).each do |i|
-      (i..n-1).each do |j|
-        @ret["#{i}-#{j}"] = is_palindromic?(s, i, j)
-        if @ret["#{i}-#{j}"] && (j - i + 1)> max.length
-            max = s[i..j]
+      (i+1..n-1).each do |j|
+        if j - i + 1 < max.length
+            next
+        else
+            @ret["#{i}-#{j}"] = is_palindromic?(s, i, j)
+            if @ret["#{i}-#{j}"] && (j - i + 1)> max.length
+                max = s[i..j]
+            end
         end
       end    
     end    
@@ -40,14 +50,14 @@ def longest_palindrome(s)
     return max
 end
 
-def is_palindromic?(s, start_i, end_i)
-  if !@ret["#{start_i}-#{end_i}"].nil?
-      return @ret["#{start_i}-#{end_i}"]
-   elsif start_i == end_i
+def is_palindromic?(s, left, right)
+  if !@ret["#{left}-#{right}"].nil?
+      return @ret["#{left}-#{right}"]
+   elsif left == right
       return true
-  elsif start_i + 1 == end_i
-      return s[start_i] == s[end_i]
+  elsif left + 1 == right
+      return s[left] == s[right]
   else
-      is_palindromic?(s,start_i + 1, end_i -1) && s[start_i] == s[end_i]  
+      s[left] == s[right] && is_palindromic?(s,left + 1, right -1)   
   end    
 end    
